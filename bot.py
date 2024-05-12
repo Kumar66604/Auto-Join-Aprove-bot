@@ -62,7 +62,7 @@ async def op(_, m :Message):
                         InlineKeyboardButton("🗯 Channel", url="https://t.me/PS_OTT"),
                         InlineKeyboardButton("💬 Support", url="https://t.me/PS_BOTz")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="http://t.me/Auto_psbot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="http://t.me/psapprovebot?startgroup")
                     ]
                 ]
             )
@@ -73,7 +73,7 @@ async def op(_, m :Message):
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="http://t.me/Auto_psbot?startgroup")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="http://t.me/psapprovebot?startgroup")
                     ]
                 ]
             )
@@ -104,7 +104,7 @@ async def chk(_, cb : CallbackQuery):
                         InlineKeyboardButton("🗯 Channel", url="https://t.me/PS_OTT"),
                         InlineKeyboardButton("💬 Support", url="https://t.me/PS_BOTz")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="http://t.me/Auto_psbot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="http://t.me/psapprovebot?startgroup")
                     ]
                 ]
             )
